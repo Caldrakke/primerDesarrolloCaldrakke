@@ -20,14 +20,36 @@ public class MainController {
 		return "enderLilies";
 	}
 	
+	@GetMapping(value = "nierAutomata")
+	public String nierAutomata() {
+		return "nierAutomata";
+	}
 
-
-
-
-	
-	@GetMapping(value = "portal2")
+    @GetMapping(value = "portal2")
 	public String portal2() {
 		return "portal2";
 	}
+
+
+
+
+@GetMapping(value = "darkSouls3")
+public String darkSouls3() {
+	return "darkSouls3";
+   }
+
+
+
+@GetMapping(value = "oriAndTheBlindForest")
+public String oriAndTheBlindForest() {
+	return "oriAndTheBlindForest";
 }
-	
+
+@GetMapping(value = "listaJuegos")
+public String listaJuegos() {
+	return "listaJuegos";
+}
+
+
+}
+

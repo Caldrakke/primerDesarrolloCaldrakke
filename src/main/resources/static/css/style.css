@@ -3,10 +3,22 @@
 	height: 100%;
 	}
 .color {
-    background-color: rgb(13, 17, 68) ;
+  
+	background-image: url("../img/mainBackground.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+	max-width: 100%;
+	width: 100%;
+    
     }
     
     
+    
+    .nav-items{
+	text-align: left;
+	
+}
     
     
     
@@ -17,7 +29,7 @@
     }
     
     
-    
+   /*recuerda 1280x720*/
 .hollowbackground {
 	background-image: url("../img/HollowBackground.jpg");
 	background-repeat: no-repeat;
@@ -26,22 +38,126 @@
 	max-width: 100%;
 	width: 100%;
     }
+
+.portalbackground {
+	background-image: url("../img/portalBackground.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+	max-width: 100%;
+	width: 100%;
+    }
+    
+    .darkbackground {
+	background-image: url("../img/darkBackground.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+	max-width: 100%;
+	width: 100%;
+    }
+    
+    .enderbackground {
+	background-image: url("../img/enderBackground.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+	max-width: 100%;
+	width: 100%;
+    }
+    
+    
+    .oribackground {
+	background-image: url("../img/oriBackground.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+	max-width: 100%;
+	width: 100%;
+    }
+    
+    .nierbackground {
+	background-image: url("../img/nierBackground.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+	max-width: 100%;
+	width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 .col-sm-8 {
 	
 	margin-left:320px;
 	background-position: center;
-	background-color: rgb(45, 45, 45);
+	background-color: #1a1e23;
 	
     }
 	
 p{
+
+  font-family: arial, sans-serif;
 	
 color:white;
 
 }
 	
 h2{
-	
+	 font-family:"times new roman", serif;
 color:white;
 	
 }	
+
+.h2false{
+	 font-family:"times new roman", serif;
+color:white;
+padding-left:48px;	
+}	
+
+.h3soundtrack{
+	 font-family:"times new roman", serif;
+color:white;
+padding-left:100px;
+padding-top:230px;	
+}	
+
+.grid-container{
+	
+	width:100%;
+}
+.grid-item {
+        width:100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows: 1fr;
+        gap: 30px;
+        padding-top:200px;
+        
+        background-color: rgba(65, 59, 59, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+
+
+    .grid-Tabla {
+	 
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+      padding: 10px;
+    
+    }
